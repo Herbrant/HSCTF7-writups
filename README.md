@@ -1,1 +1,1 @@
-# HSCTF7---writups
+# HSCTF7-writups
