@@ -1,0 +1,52 @@
+var e1 input()
+var e2 input()
+var e3 input()
+var e4 input()
+var e5 input()
+var e6 input()
+var e7 input()
+var e8 input()
+var e9 input()
+var e10 input()
+var e11 input()
+var e12 input()
+var e13 input()
+
+if not e2e13
+diff e12e1
+if not e2e6
+var e3e8
+diff e2e5
+incr e10e7
+if not e5e10
+var e15e4
+diff e3 8
+var e4e13
+var e13e15
+incr e2e8
+diff e2e4
+incr e1e12
+incr e3 4
+incr e4 2
+
+if not e4e6
+var e16 input()
+
+if not e5e10
+incr e5e10
+
+incr e12 1
+diff e11 8
+incr e8e9
+diff e6e7
+
+if not e11 4
+incr e7e9
+
+incr e9 8
+diff e1e3
+diff e5e12
+incr e3e3
+diff e8e12
+if not e11💔
+diff e10e2
