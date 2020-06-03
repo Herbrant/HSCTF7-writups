@@ -1,8 +1,3 @@
-import itertools
-import string
-
-input = "xB^r_En}INc4v"
-
 e1 = ord(input[0])
 e2 = ord(input[1])
 e3 = ord(input[2])
@@ -19,7 +14,7 @@ e13 = ord(input[12])
 e15 = 0
 
 if e2 != e13:
-    e12 = e12 - e1  
+    e12 = e12 - e1
 
 if e2 != e6:
     e3 = e8
@@ -29,10 +24,10 @@ e10 = e10 + e7
 
 if e5 != e10:
     e15 = e4
-
+    
 e3 = e3 - 8
-e13 = e4
-e15 = e13
+e4 = e13
+e13 = e15
 e2 = e2 + e8
 e2 = e2 - e4
 e1 = e1 + e12
@@ -40,7 +35,7 @@ e3 = e3 + 4
 e4 = e4 + 2
 
 if e4 != e6:
-    e16 = ord(input())
+    e16 = input()
 
 if e5 != e10:
     e5 = e5 + e10
@@ -57,16 +52,6 @@ e9 = e9 + 8
 e1 = e1 - e3
 e5 = e5 - e12
 e3 = e3 + e3
-e8 = e8 - e12
-
+e8 = e8 + e12
 if e11 != 0:
     e10 = e10 - e2
-
-
-result_t = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13]
-result = ""
-
-for v in result_t:
-    result = result + chr(v)
-
-print(result)
