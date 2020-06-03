@@ -1,4 +1,4 @@
-output = "xB^r_En}INc4v"
+output = "ababababababa"
 
 # e1 = (input[0])
 # e2 = (input[1])
@@ -14,7 +14,7 @@ output = "xB^r_En}INc4v"
 # e12 = (input[11])
 # e13 = (input[12])
 
-f = open("input_result.txt", "r")
+f = open("/home/davide/input_result.txt", "r")
 
 lines = []
 
@@ -75,7 +75,8 @@ e9 = e9 + 8
 e1 = e1 - e3
 e5 = e5 - e12
 e3 = e3 + e3
-e8 = e8 + e12
+e8 = e8 - e12
+
 if e11 != 0:
     e10 = e10 - e2
 
