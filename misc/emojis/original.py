@@ -38,19 +38,6 @@ e15 = 0
 
 f.close()
 
-result_t = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13]
-result = ""
-counter = 1
-vett  = []
-
-for v in result_t:
-    vett.append(v)
-    result = result + chr(v)
-    counter = counter+1
-
-print("Vett:")
-print(vett)
-
 if e2 != e13:
     e12 = e12 - e1
 
@@ -112,7 +99,7 @@ print("\nOutput:")
 out_vet = []
 
 for val in output:
-    out_vet.append((val))
+    out_vet.append(ord(val))
 
 print(out_vet)
 
