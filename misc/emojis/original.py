@@ -1,3 +1,5 @@
+input = "ababababababa"
+
 e1 = ord(input[0])
 e2 = ord(input[1])
 e3 = ord(input[2])
@@ -55,3 +57,11 @@ e3 = e3 + e3
 e8 = e8 + e12
 if e11 != 0:
     e10 = e10 - e2
+
+result_t = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13]
+result = ""
+
+for v in result_t:
+    result = result + chr(v)
+
+print(result)
