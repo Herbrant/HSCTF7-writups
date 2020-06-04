@@ -7,5 +7,5 @@ libmpc-dev \
 libgmp-dev \
 libmpfr-dev
 
-RUN pip install gmpy2
+RUN pip install gmpy2 pycryptodome
 
