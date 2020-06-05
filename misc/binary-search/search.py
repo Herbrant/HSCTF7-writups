@@ -61,6 +61,7 @@ class GFG:
             for col in range(self.C): 
                 if self.search2D(grid, row, col, word): 
                     return row, col
+    
     def findFlag(self, grid, x, y):
         self.R = len(grid)
         self.C = len(grid[0])
@@ -68,7 +69,7 @@ class GFG:
         result = ""
         col = y
 
-        for row in range(x, -1, +1):
+        for row in range(x, 1, -1):
             if col > self.C - 1:
                 break
             result = result + grid[row][col]
@@ -88,7 +89,8 @@ if __name__=='__main__':
 
     gfg = GFG() 
     x, y = gfg.patternSearch(grid, '01100110011011000110000101100111') 
-    print('x:{} y:{}'.format(x, y))
+    #print('x:{} y:{}'.format(x, y))
+
     result = gfg.findFlag(grid, x, y)
     print(result)
 
