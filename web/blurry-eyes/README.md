@@ -1,4 +1,4 @@
-# My First Calculator
+# Blurry-eyes
 
 La challenge consisteva nel trovare una flag in un campo nascosto nel seguente link https://blurry-eyes.web.hsctf.com/
 
