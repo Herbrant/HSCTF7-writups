@@ -77,6 +77,10 @@ class GFG:
 
         return result
 
+def decode_binary_string(s):
+    return ''.join(chr(int(s[i*8:i*8+8],2)) for i in range(len(s)//8))
+
+
 # Driver Code 
 if __name__=='__main__':
     file = open("reversed.txt", "r").readlines()
@@ -92,5 +96,5 @@ if __name__=='__main__':
     #print('x:{} y:{}'.format(x, y))
 
     result = gfg.findFlag(grid, x, y)
-    print(result)
+    print(decode_binary_string(result))
 
