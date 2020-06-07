@@ -1,4 +1,9 @@
-# Mad Logs
+# Mad Libs
+
+We all know that officer speeches are just mad libs, anyway.
+
+## Solution
+
 Analyzing the image with binwalk you will see:
 ```
 > binwalk Mad_Libs.png
