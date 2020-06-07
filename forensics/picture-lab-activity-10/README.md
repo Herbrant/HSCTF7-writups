@@ -17,5 +17,5 @@ Chunks
 You'll get the flag in the recovered image:
 
 ```
-flag{and_y0u_th0ught_p1ctur3_14b_was_h4rd}
+flag{and_y0u_th0ught_p1ctur3_l4b_was_h4rd}
 ```
