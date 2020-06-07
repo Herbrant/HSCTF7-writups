@@ -1,4 +1,4 @@
-##Boredom
+# Boredom
 
 Keith is bored and stuck at home. Give him some things to do.
 
@@ -9,7 +9,7 @@ Note, if you're having trouble getting it to work remotely:
 check your offset, the offset is slightly different on the remote server
 the addresses are still the same
 
-##Solution
+## Solution
 
 Disassembled with ghidra the bin file and checked that the buffer was 216 locally (208 on server). We tested that if you put 220 "a" the program try to call a function at the address: "0x7f0061616161"
 So i just used the command
