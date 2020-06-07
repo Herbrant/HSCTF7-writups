@@ -1,5 +1,10 @@
 # XORed
 
+I was given the following equations. Can you help me decode the flag?
+Text moved to XORed.txt.
+
+## Solution
+
 ```
 Key 1 = 5dcec311ab1a88ff66b69ef46d4aba1aee814fe00a4342055c146533 
 Key 1 ^ Key 3 = 9a13ea39f27a12000e083a860f1bd26e4a126e68965cc48bee3fa11b 
