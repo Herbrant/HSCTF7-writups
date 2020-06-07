@@ -1,5 +1,11 @@
 # CNC
 
+My friend gave me a flash drive so i could help him machine out some parts with my CNC machine for a project he's working on. However, he deleted all of the files. I think there's also a few things he's hidden within the files he's previously deleted in the flash drive... can you help me recover his secrets from this image of his drive?
+Flag is in 3 parts.
+There has been a reupload, but the solution and flag have not been changed.
+
+## Solution
+
 La sfida chiedeva di trovare la flag (scomposta in 3 parti) all'interno di un file .eo1 (Encase Image File) e attraverso un analisi di lettura con il software AccessDataFK Manager.
 Al suo interno troviamo due cartelle: [root] e [unallocated space].
 All'interno di root è palese che ci siano dei file interessanti: in particolare un file .zippato (!iles.zip) e Password.xsl.
