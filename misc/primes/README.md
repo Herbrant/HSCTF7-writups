@@ -1,3 +1,3 @@
-## Primes
+# Primes
 
 Primes!
