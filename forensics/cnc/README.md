@@ -31,4 +31,4 @@ Così abbiamo analizzato i due file su un sito online di stecanografia per veder
 https://stylesuxx.github.io/steganography/
 e così è stato. In 02599 era contenuta l'altra seconda parte di flag.
 
-Dopo un po' di tentativi abbiamo trovato la terza parte di flag nel file 00005. 
+Dopo un po' di tentativi abbiamo trovato la terza parte di flag nel file 00005.
