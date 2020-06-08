@@ -9,3 +9,4 @@ libmpfr-dev
 
 RUN pip install gmpy2 pycryptodome
 
+ADD solution.py /
