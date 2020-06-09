@@ -32,7 +32,7 @@ So you can easily rebuild the first 7 bits of the line under the upper left big 
 
 ![alt text](https://i.imgur.com/5OZ3mUM.png)
 
-After applying these changes, this will be our final QR code:
+After applying these changes, this will be the final QR code:
 
 ![alt text](https://i.imgur.com/tMsyGu5.png)
 
