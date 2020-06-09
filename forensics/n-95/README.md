@@ -36,7 +36,7 @@ After applying these changes, this will be our final QR code:
 
 ![alt text](https://i.imgur.com/tMsyGu5.png)
 
-To extract the flag, we open the image in this site and we use Extract QR Information in the Tool section.
+To extract the flag, we open the image in this [site](https://merricx.github.io/qrazybox/) and we use Extract QR Information in the Tool section.
 
 ```
 flag{60_dozen_quartz_jars}
