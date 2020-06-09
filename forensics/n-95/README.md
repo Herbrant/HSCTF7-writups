@@ -18,13 +18,16 @@ In our image, bit 7 to bit 14 are known as we can see in following image (the li
 
 ![alt text](https://i.imgur.com/x5YMNxO.png)
 
-So we can rebuild it easily in the line at the right of the upper left big square:
+So we can easily rebuilt the line at the right of the upper left big square:
 
 ![alt text](https://i.imgur.com/zX9hydD.png)
 
-If we convert bit 7 to bit 14 to binary we obtain this: 01001011. We're missing the first 7 significative bits. We can find them searching the last 8 bit we obtained before from the convertion in this page: https://www.thonky.com/qr-code-tutorial/format-version-tables.
+If we convert bit 7 to bit 14 to binary string we obtain this: 01001011. We're missing the first 7 significative bits. We can find them searching the last 8 bit we obtained before from the convertion in this page: https://www.thonky.com/qr-code-tutorial/format-version-tables.
 
-We find out that it is M 3 which has this type information bits: 101101101001011.
+We find out that it is M 3 which has got this string type information bits: 101101101001011.
 
-So we can easyly rebuild the first 8 bits:
+So we can easily rebuild the first 7 bits:
 
+![alt text](https://i.imgur.com/DyZfJiW.png)
+
+![alt text](https://i.imgur.com/5OZ3mUM.png)
