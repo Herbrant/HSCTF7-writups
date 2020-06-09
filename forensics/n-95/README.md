@@ -4,17 +4,17 @@ QR codes wear masks and so should you.
 
 ## Solution
 
-Remove the three mattles of color (red, green, blue), fill the cutted black little squares and add 3 big square in the 3 corners as usual in QR codes using Gimp or Photoshop. You'll obtain this:
+Remove the three mattles of color (red, green, blue), fill the incomplete little black squares and add the 3 usual big squares in the 3 corners using Gimp or Photoshop. You'll obtain this:
 
 ![alt text](https://i.imgur.com/ZiqDHpS.png)
 
-It is 25x25, so it is a version 2 code. Knowing this, will help us rebuild it. Version 2 codes follow this structure:
+It is 25x25, so it is a version 2 code. This will help us rebuild it. Version 2 codes follow this structure:
 
 ![alt text](https://i.imgur.com/UEdwJAy.png)
 
 Blue lines represent the 15 bits of the Format Informations. All of them follow a pattern depending on the ECC Level + Mask Pattern.
 
-In our image, bit 7 to bit 14 are known as we can see in following image (the line under the upper right big square):
+In our image, bit 7 to bit 14 are known as you can see in following image (the line under the upper right big square):
 
 ![alt text](https://i.imgur.com/x5YMNxO.png)
 
@@ -36,7 +36,7 @@ After applying these changes, this will be our final QR code:
 
 ![alt text](https://i.imgur.com/tMsyGu5.png)
 
-To extract the flag, you can open the image in this [site](https://merricx.github.io/qrazybox/) and we use Extract QR Information in the Tool section.
+To extract the flag, you can open the image in this [site](https://merricx.github.io/qrazybox/) and use Extract QR Information in the Tool section.
 
 ```
 flag{60_dozen_quartz_jars}
