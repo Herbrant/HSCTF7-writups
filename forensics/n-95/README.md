@@ -31,3 +31,13 @@ So we can easily rebuild the first 7 bits of the line under the upper left big s
 ![alt text](https://i.imgur.com/DyZfJiW.png)
 
 ![alt text](https://i.imgur.com/5OZ3mUM.png)
+
+After applying these changes, this will be our final QR code:
+
+![alt text](https://i.imgur.com/tMsyGu5.png)
+
+To extract the flag, we open the image in this site and we use Extract QR Information in the Tool section.
+
+```
+flag{60_dozen_quartz_jars}
+```
