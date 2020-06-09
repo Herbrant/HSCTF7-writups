@@ -4,7 +4,7 @@ QR codes wear masks and so should you.
 
 ## Solution
 
-Remove the three mattles of color (red, green, blue), fill the cutted black little squares, using Gimp or Photoshop and add 3 big square in the 3 corners as usual in QR codes. You'll obtain this:
+Remove the three mattles of color (red, green, blue), fill the cutted black little squares and add 3 big square in the 3 corners as usual in QR codes using Gimp or Photoshop. You'll obtain this:
 
 ![alt text](https://i.imgur.com/ZiqDHpS.png)
 
