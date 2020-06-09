@@ -4,7 +4,7 @@ QR codes wear masks and so should you.
 
 ## Solution
 
-Remove the three mattles of color (red, green, blue), fill the incomplete little black squares and add the 3 usual big squares in the 3 corners using Gimp or Photoshop. You'll obtain this:
+The challenge gives you a partial QR code image which has to be recovered. Remove the three mattles of color (red, green, blue), fill the incomplete little black squares and add the 3 usual big squares in the 3 corners using Gimp or Photoshop. You'll obtain this:
 
 ![alt text](https://i.imgur.com/ZiqDHpS.png)
 
