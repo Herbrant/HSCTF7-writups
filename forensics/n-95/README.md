@@ -26,7 +26,7 @@ If we convert bit 7 to bit 14 to binary string we obtain this: 01001011. We're m
 
 We find out that it is M 3 which has got this string type information bits: 101101101001011.
 
-So we can easily rebuild the first 7 bits:
+So we can easily rebuild the first 7 bits of the line under the upper left big square and the 7 bits of the line at the right of the down left big square :
 
 ![alt text](https://i.imgur.com/DyZfJiW.png)
 
