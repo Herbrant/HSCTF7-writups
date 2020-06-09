@@ -18,15 +18,15 @@ In our image, bit 7 to bit 14 are known as we can see in following image (the li
 
 ![alt text](https://i.imgur.com/x5YMNxO.png)
 
-So we can easily rebuilt the line at the right of the upper left big square:
+So you can easily rebuild the line at the right of the upper left big square:
 
 ![alt text](https://i.imgur.com/zX9hydD.png)
 
-If we convert bit 7 to bit 14 to binary string we obtain this: 01001011. We're missing the first 7 significative bits. We can find them searching the last 8 bit we obtained before from the convertion in this page: https://www.thonky.com/qr-code-tutorial/format-version-tables.
+If you convert bit 7 to bit 14 to binary string you obtain this: 01001011. We're missing the first 7 significative bits. You can find them searching the last 8 bit we obtained before from the convertion in this page: https://www.thonky.com/qr-code-tutorial/format-version-tables.
 
-We find out that it is M 3 which has got this string type information bits: 101101101001011.
+Doing this, you'll find out that it is M 3 which has got this string type information bits: 101101101001011.
 
-So we can easily rebuild the first 7 bits of the line under the upper left big square and the 7 bits of the line at the right of the down left big square :
+So you can easily rebuild the first 7 bits of the line under the upper left big square and the 7 bits of the line at the right of the down left big square :
 
 ![alt text](https://i.imgur.com/DyZfJiW.png)
 
@@ -36,7 +36,7 @@ After applying these changes, this will be our final QR code:
 
 ![alt text](https://i.imgur.com/tMsyGu5.png)
 
-To extract the flag, we open the image in this [site](https://merricx.github.io/qrazybox/) and we use Extract QR Information in the Tool section.
+To extract the flag, you can open the image in this [site](https://merricx.github.io/qrazybox/) and we use Extract QR Information in the Tool section.
 
 ```
 flag{60_dozen_quartz_jars}
