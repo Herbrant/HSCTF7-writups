@@ -14,7 +14,7 @@ AC/PMP/JC
 
 ## Solution
 
-The challenge gives you a damaged PNG file which has to be recovered. Open the file with an hex editor and fix damaged lines.
+The challenge gives you a damaged PNG file which has to be recovered. Open the file with an hex editor and fix the damaged lines as follow:
 
 Magic Number
 
