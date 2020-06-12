@@ -11,7 +11,7 @@ Note, if you're having trouble getting it to work remotely:
 
 ## Solution
 
-Disassemble the bin file using ghidra and check the buffer dimension: it is 208 locally (216 to cause a buffer overflow) and 200 on server (280 to cause a buffer overflow). You'll notice that if you send 220 "a" as input, the program will try to call a function at the address: "0x7f0061616161" (character "a" in ASCII is equal to 0x61 in hex).
+Disassemble the bin file using ghidra and check the buffer dimension: it is 208 locally (216 to cause a buffer overflow) and 200 on server (208 to cause a buffer overflow). You'll notice that if you send 220 "a" as input, the program will try to call a function at the address: "0x7f0061616161" (character "a" in ASCII is equal to 0x61 in hex).
 So just use the command:
 
 ```
