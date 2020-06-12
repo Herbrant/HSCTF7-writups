@@ -6,8 +6,8 @@ Connect at nc pwn.hsctf.com 5002.
 
 Note, if you're having trouble getting it to work remotely:
 
-check your offset, the offset is slightly different on the remote server
-the addresses are still the same
+* check your offset, the offset is slightly different on the remote server
+* the addresses are still the same
 
 ## Solution
 
