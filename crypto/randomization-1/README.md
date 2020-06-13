@@ -14,8 +14,8 @@ next() uses the LCG algorithm to generate the next number as follow:
 curr = 37 * curr + 65
 ```
 
-We can see in the assembly that code does a MOVZX on the return of next(), so it shfts left 8 bits the curr variable and then shifts it right always by 8 bits.
-In that way, only the last 8 bits are taken as result.
+We can see in the assembly that code does a MOVZX on the return of next(), so it shfts left the curr value by 8 bits and then shifts right it always by 8 bits.
+In this way, only the last 8 bits are taken as result.
 
 Example:
 
