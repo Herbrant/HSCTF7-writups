@@ -27,7 +27,7 @@ Guess my number:
 
 37 * 105 + 65 = 3950 (0x0F6E) ---> 110 (0x6E)
 
-If we answer correctly 9 times, the program will give us the flag.
+If you answer correctly 9 times, the program will give us the flag.
 
 ```
 flag{l1n34r_c0n6ru3n714l_63n3r470r_f41lur3_4b3bcd43}
