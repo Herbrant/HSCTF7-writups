@@ -9,3 +9,14 @@ nc pwn.hsctf.com 5001
 ## Solution
 
 Connect to the server with netcat and you will see the flag :)
+
+Command: 
+
+```
+nc pwn.hsctf.com 5001
+```
+
+
+```
+flag{https://youtu.be/-TVWst0YqCI}
+```
